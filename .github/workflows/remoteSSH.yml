@@ -12,5 +12,4 @@ jobs:
         host: ${{ secrets.SSG_HOST }}
         username: ${{ secrets.SSH_USER }}
         password: ${{ secrets.SSH_PASSWORD }}
-        port: ${{ secrets.PORT }}
         script: whoami
